@@ -1,0 +1,25 @@
+
+\documentclass[letterpaper,12pt,titlepage,oneside,final]{book}
+
+% Required package
+\usepackage{animate}
+\usepackage{graphicx}
+
+
+% highlight ===========================================================
+%   L O G I C A L    D O C U M E N T -- the content of your thesis
+%======================================================================
+\begin{document}
+\graphicspath{{figures/}}
+%%try making an animation
+\begin{figure}
+\begin{frame}
+\centering
+\centerline{\animategraphics[autoplay,loop, width=1\textwidth]{10}{/Animation/Thanks-}{0}{39}}
+\end{frame}
+\caption{animatation}
+\label{fig:animatation}
+\end{figure}
+
+
+\end{document}
